@@ -44,3 +44,65 @@ h3 {
     max-height: 100%;
     object-fit: contain; 
 }
+
+.modulo-tres {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.modulo_tres h3, h4{
+    color: #061b30;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modulo_tres p {
+    color: #2c3e50;
+    font-size: medium;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cascada, .herencia, .especificidad {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #eaf2f8;
+    border-radius: 5px;
+}
+
+.cascada h4, .herencia h4, .especificidad h4 {
+    color: #1a5276;
+    font-size: 1.2em;
+}
+
+.cascada p, .herencia p, .especificidad p {
+    font-size: 1em;
+    color: #2e4053;
+    line-height: 1.6;
+}
+
+.cascada ol {
+    margin: 10px 0 10px 20px;
+    color: #34495e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.especificidad strong {
+    color: #d35400;
+}
+
+
+.especificidad h5 {
+    color: blue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.especificidad h5 {
+    color: red !important;
+}
