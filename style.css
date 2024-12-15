@@ -1,4 +1,4 @@
-.modulo-dos h1{
+.modulo_dos h1{
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     text-align: center;
@@ -8,7 +8,7 @@
     background-color: #f2f2f2;
 }
 
-.modulo-dos p {
+.modulo_dos p {
     color: blueviolet;
     font-style: italic;
     font-size: large;
@@ -23,7 +23,7 @@
     color: saddlebrown;
 }
 
-.modulo-dos h3 {
+.modulo_dos h3 {
     text-align: right;
 }
 
@@ -107,7 +107,7 @@
     color: red !important;
 }
 
-.modulo-cuatro {
+.modulo_cuatro {
     line-height: 1.6;
     margin: 20px;
 }
@@ -165,3 +165,62 @@
     text-align: center;
     flex: 1;
 }
+
+
+.modulo_cinco {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.modulo_cinco h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.modulo_cinco h2 {
+    font-size: 2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.modulo_cinco p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.modulo_cinco ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #444;
+}
+
+.modulo_cinco ul li {
+    margin-bottom: 10px;
+}
+
+.demo-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.demo-flexbox div {
+    background-color: #e6f7ff;
+    color: #0a77bb;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+    min-width: 100px;
+}
+
