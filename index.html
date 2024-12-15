@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background-gray">
-        <h1>Esta es una página HTML con CSS</h1>
-        <p>Esto es un parrafo color morado con fondo gris</p>
-    </div>
-    
-    <p>Esto es un parrafo con CSS integrado</p>
-    <p class="underline">Esto es un parrafo con CSS integrado con subrayado</p>
-    <div class="underline">
-        <h3 id="color-naranja" >Esto es un header subrayado</h3>
-    </div>
-    <div class="cajita">
-        <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato lamiendose">
-    </div>
+    <section class="modulo_dos">
+        <div class="background-gray">
+            <h1>Esta es una página HTML con CSS</h1>
+            <p>Esto es un parrafo color morado con fondo gris</p>
+        </div>
+        
+        <p>Esto es un parrafo con CSS integrado</p>
+        <p class="underline">Esto es un parrafo con CSS integrado con subrayado</p>
+        <div class="underline">
+            <h3 id="color-naranja" >Esto es un header subrayado</h3>
+        </div>
+        <div class="cajita">
+            <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Gato lamiendose">
+        </div>
+    </section>
 
     <section class="modulo_tres">
         <h3>Tercer modulo</h3>
@@ -45,5 +47,66 @@
         </article>
     </section>
 
+    <section class="modulo_cuatro">
+        <h2>Clase 4</h2>
+        <h3>Introducción a Flexbox</h3>
+        
+        <ul>
+            <li>Conceptos básicos</li>
+            <li>Funcionamiento</li>
+            <li>Ejes y alineación</li>
+            <li>Dirección y “wrapping”</li>
+            <li>Aplicación horizontal</li>
+            <li>Aplicación vertical</li>
+        </ul>
+    
+        <h3>Flexbox</h3>
+        <p>Flexbox es un módulo de CSS que proporciona una forma eficiente y flexible de diseñar la alineación y distribución de elementos dentro de un contenedor.</p>
+    
+        <h3>¿Cómo funciona?</h3>
+        <p>Flexbox permite controlar cómo se organizan esas
+            cosas dentro de la caja: si van en fila o en columna, si se alinean arriba o abajo, al centro o a los lados, cuánto espacio hay entre ellas, cómo se comportan si la caja cambia de tamaño, etc.</p>
+    
+        <h3>Contenedor flexible</h3>
+        <p>Para usar Flexbox, primero debes crear un contenedor flexible. Esto se hace aplicando la propiedad display: flex a un elemento HTML (generalmente un div).</p>
+    
+        <div class="contenedor">
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+        </div>
+    
+        <h3>Dirección del eje principal</h3>
+        <p>Flexbox trabaja con dos ejes:</p>
+
+        <h4>Eje principal</h4>
+        <p>Es la dirección principal en la
+            que se alinean los elementos. Puede ser
+            horizontal (por defecto) o vertical.</p>
+        
+        <h4>Eje cruzado</h4>
+        <p>Es perpendicular al eje principal.</p>
+        
+        <h3>Envoltura de elementos</h3>
+        <p>Determina si los elementos deben ajustarse a una sola línea o si pueden dividirse en varias líneas...</p>
+        <h4>nowrap (default)</h4>
+        <p>Todos los elementos se mantienen en una sola línea.</p>
+
+        <h4>wrap</h4>
+        <p>Los elementos se dividen en varias líneas si no caben en una sola.</p>
+
+        <h4>wrap-reverse</h4>
+        <p>Igual que wrap, pero invierte el orden de las líneas.</p>
+    
+        <h3>align y justify en Flexbox</h3>
+
+        <h4>justify-content</h4>
+        <p>Alineación en el eje principal (horizontal)</p>
+
+        <h4>align-items</h4>
+        <p>Alineación en el  eje cruzado (vertical)</p>
+
+    </section>
+    
 </body>
 </html>
